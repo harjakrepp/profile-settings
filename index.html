@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<title>Profile Settings</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<div class="header">
+		<h1>MY PROFILE |</h1>
+		<p>SETTINGS</p>
+	</div>
+	<center>
+	<div class="input-box">
+		<form id="profileForm" method="POST">
+			<div id="PPLayout">
+				<img id="profilePicture" src="image/original-pp.jpg"></img>
+			</div>
+			<input id="addPP" type="file"></input>
+		<table>
+			<tr>
+				<td>Name</td>
+				<td>
+					<input type="text" placeholder="Name"></input>
+				</td>
+			</tr>
+			<tr>
+				<td>Password</td>
+				<td>
+					<input type="password" placeholder="Password"></input>
+				</td>
+			</tr>
+			<tr>
+				<td>Email</td>
+				<td>
+					<input type="email" placeholder="Email"></input>
+				</td>
+			</tr>
+			<tr>
+				<td>Phone</td>
+				<td>
+					<input type="number" placeholder="Phone"></input>
+				</td>
+			</tr>
+			<tr>
+				<td>Website</td>
+				<td>
+					<input type="url" placeholder="Website"></input>
+				</td>
+			</tr>
+			<tr>
+				<td>Tel ID</td>
+				<td>
+					<input type="tel" placeholder="Tel ID"></input>
+				</td>
+			</tr>
+			<tr>
+				<td>Date Birth</td>
+				<td>
+					<input type="date"></input>
+				</td>
+			</tr>
+			<tr>
+				<td>Religion</td>
+				<td>
+					<select>
+						<option>Islam</option>
+						<option>Protestant</option>
+						<option>Catholic</option>
+						<option>Hinduism</option>
+						<option>Buddhism</option>
+						<option>Shintoism</option>
+						<option>Confucianism</option>
+						<option>Others</option>
+					</select>
+				</td>
+			</tr>
+			<tr>
+				<td>Gender</td>
+				<td>
+					<label><input name="gender" type="radio">Male</input></label>
+					<label><input name="gender" type="radio">Female</input></label>
+				</td>
+			</tr>
+			<tr>
+				<td>Color</td>
+				<td>
+					<input type="color"></input>
+				</td>
+			</tr>
+			<tr>
+				<td>Mood</td>
+				<td>
+					S<input type="range">H</input>
+				</td>
+			</tr>
+			<tr>
+				<td>Language</td>
+				<td>
+					<ul class="u-right">
+						<li>
+							<input name="HTML" type="checkbox"></input>
+							<label for="HTML">HTML</label>
+						</li>
+						<li>
+							<input name="CSS" type="checkbox"></input>
+							<label for="CSS">CSS</label><br>
+						</li>
+						<li>
+							<input name="JS" type="checkbox"></input>
+							<label for="JS">JS</label>
+						</li>
+					</ul>
+					<ul class="u-left">
+						<li>
+							<input name="PHP" type="checkbox"></input>
+							<label for="PHP">PHP</label><br>
+						</li>
+						<li>
+							<input name="JAVA" type="checkbox"></input>
+							<label for="JAVA">Java</label>
+						</li>
+						<li>
+							<input name="C++" type="checkbox"></input>
+							<label for="C++">C++</label><br>
+						</li>
+					</ul>
+				</td>
+			</tr>
+			<tr>
+				<td>Work Time</td>
+				<td>
+					<input type="time" value="start-work"></input>
+					<input type="time" value="finish-work"></input>
+				</td>
+			</tr>
+			<tr>
+				<td>Certificate</td>
+				<td>
+					<input class="file" type="file"></input>
+				</td>
+			</tr>
+			<tr>
+				<td>Bio</td>
+				<td>
+					<textarea></textarea>
+				</td>
+			<tr>
+				<td colspan="2">
+					<div class="submit">
+						<input type="submit" onclick="resnAlert()"></input>
+					</div>
+				</td>
+			</tr>
+		</table>
+		</form>
+	</div>
+	</center>
+</body>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<script src="script.js"></script>
+</html>

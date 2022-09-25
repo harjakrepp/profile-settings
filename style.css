@@ -1,0 +1,92 @@
+body {
+	margin: 0;
+	padding: 0;
+	background: #dddddd;
+}
+.header {
+	background: #444444;
+	color: #dfdfdf;
+	width: 100%;
+	margin: 0;
+	border-bottom: 3px double darkred;
+	padding: 0.3vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	position: fixed;
+	top: 0;
+}
+.header h1 {
+	font-family: sans-serif;
+	font-size: 3vh;
+	text-align: center;
+}
+.header p {
+	font-size: 2vh;
+	animation: fade 3s ease forwards;
+}
+.input-box {
+	height: 165vh;
+	background: #000020;
+	color: white;
+	margin: 8vh 1.5vh;
+	padding: 2vh;
+	font-family: sans-serif;
+}
+#PPLayout {
+	width: 16vh;
+	height: 16vh;
+	border-radius: 50%;
+	box-shadow: 0px 4px 8px darkblue;
+}
+#profilePicture {
+	width: 16vh;
+	height: 16vh;
+	border-radius: 50%;
+}
+#addPP {
+	width: 12vh;
+	display: block;
+	margin: 2vh;
+}
+td {
+	padding: 1vh;
+	color: #dfdfdf;
+}
+.u-right {
+	display: inline-block;
+	padding: 0;
+}
+.u-left {
+	display: inline-block;
+	padding: 0;
+}
+li {
+	display: inline-flex;
+}
+input {
+	background: #353535;
+	color: #dfdfdf;
+	border: 0.3vh 0.5vh solid maroon;
+}
+select {
+	background: #353535;
+	color: #dfdfdf;
+}
+.file {
+	width: 28vh;
+}
+textarea {
+	background: #353535;
+	color: #dfdfdf;
+	width: 30vh;
+height: 16vh;
+}
+.submit {
+	text-align: center;
+	margin: 3vh;
+}
+@keyframes fade {
+	from{opacity:0;}
+	to{opacity:1;}
+}
