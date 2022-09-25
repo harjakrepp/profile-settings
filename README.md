@@ -1,4 +1,8 @@
 # profile-settings
-profile settings design for mobile
-open source code
+<h3>profile settings design for mobile</h3>
 
+***
+<details>
+<summary>open source code</summary>
+<p>for Personal Use</p>
+</details>
